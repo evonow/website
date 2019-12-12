@@ -1,0 +1,117 @@
+html{min-width:1000px;}
+body {
+	margin:0;
+	color:#9de5c0;
+	font:19px/23px Arial, Helvetica, sans-serif;
+	min-width:1000px;
+	background:#02050b url(../images/bg-page.jpg) no-repeat 50% 0;
+}
+img {border-style:none;}
+a {
+	text-decoration:none;
+	color:#fff;
+}
+a:hover {text-decoration:underline;}
+a:active {background-color: transparent;}
+input,
+textarea,
+select {
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+}
+form, fieldset {
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	padding:132px 0 0;
+	overflow:hidden;
+}
+#wrapper .holder{
+	padding:0 195px 0 131px;
+}
+.logo{
+	width:675px;
+	height:295px;
+	background:url(../images/logo.jpg) no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0 0 -13px;
+	padding:153px 200px 43px 130px;
+}
+.logo a{
+	display:block;
+	height:100%;
+}
+.blockquote{
+	margin:0 0 30px;
+}
+.blockquote blockquote{
+	color:#fff;
+	margin:0;
+	font-size:17px;
+	line-height:19px;
+}
+.blockquote blockquote q{quotes: none;}
+.blockquote blockquote  cite{
+	font-style:normal;
+	color:#000;
+	background: url(../images/seporator01.png) no-repeat 0 3px;
+	padding:0 0 0 20px;
+}
+.intro{
+	padding:0 0 161px;
+	text-align:justify;
+}
+.intro p{margin:0 0 15px;}
+#footer{color:#fff;}
+#footer:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.contact-box{
+	float:left;
+	width:345px;
+	padding:19px 16px 22px 0;
+	font-size:10px;
+	line-height:13px;
+	margin:8px 13px 0 -4px;
+	border-right:1px solid #fff;
+}
+.contact-list{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	color:#fff;
+	text-align:right;
+}
+.contact-list li{
+	display:inline-block;
+	vertical-align:top;
+	padding:0 2px;
+	border-left:1px solid #fff;
+}
+.contact-list li:first-child{
+	border-style:none;
+	padding:0 2px 0 0;
+}
+.contact-box address{
+	margin:0;
+	text-align:right;
+	font-style:normal;
+}
+.support{
+	float:left;
+	background: url(../images/bg-support.png) no-repeat;
+	padding:26px 0 40px 77px;
+	font-size:24px;
+	letter-spacing:-1px;
+	line-height:30px;
+	text-transform:uppercase;
+}
